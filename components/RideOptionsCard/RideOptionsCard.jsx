@@ -1,11 +1,11 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
-
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
+import tw from 'tailwind-react-native-classnames'
 const RideOptionsCard = () => {
     return (
-        <View>
-            <Text>Pick a Ride</Text>
-        </View>
+        <SafeAreaView>
+            <Text style={tw`text-center py-5 text-xl`}>Select a Ride</Text>
+        </SafeAreaView>
     )
 }
 
